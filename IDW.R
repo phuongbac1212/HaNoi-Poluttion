@@ -1,10 +1,8 @@
 library(raster)
 library(rgdal)
 library(ggplot2)
-library(gstat)
 library(dplyr)
-library(gridExtra)
-library(dismo)
+library(gstat)
 library(sf)
 library(sp)
 
