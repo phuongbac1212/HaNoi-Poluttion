@@ -6,19 +6,25 @@
 #
 #    http://shiny.rstudio.com/
 #
+sink(paste("logs/", Sys.time(), ".txt", sep= ""), append=FALSE, split=TRUE)
 
 library(shiny)
-
+library(shinyWidgets)
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
     h1("Bản đồ nội suy ô nhiễm không khí tại Hà Nội"),
     sidebarLayout(
         sidebarPanel(
+            materialSwitch(inputId = "flexibleTime",status = "primary",
+                           label = "Thời gian linh động? (chọn phạm vi hay cố định)"),
             selectInput(inputId = "timeType",
                         label = "Kiểu thời gian: ",
                         list("Giờ", "Ngày")),
-            checkboxInput(inputId = "flexibleTime",
-                          label = "Thời gian linh động? (chọn phạm vi hay cố định)"),
+            materialSwitch(inputId = "WaterEn",status = "primary",
+                          label = "thêm lớp nước"),
+            materialSwitch(inputId = "TopoEn",status = "primary",
+                          label = "Thêm lớp địa hình"),
+            
             dateInput(
                 "date",
                 "Date range:",
@@ -62,8 +68,12 @@ shinyUI(fluidPage(
                 label = "Loại khí ô nhiễm: ",
                 list("PM2.5", "PM10", "CO")
             ),
+            selectInput(inputId = "IterType",
+                        label = "Phương pháp nội suy: ",
+                        list("IDW", "Kriging")),
             submitButton("Update View", icon("refresh")),
         ),
+        
         mainPanel (tabsetPanel(
             type = "tab",
             tabPanel("Plot", plotOutput("plot")),
@@ -72,3 +82,4 @@ shinyUI(fluidPage(
         ))
     )
 ))
+

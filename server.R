@@ -14,8 +14,9 @@ library(shiny)
 shinyServer(function(input, output) {
     
     res = NA
+    
     output$plot <- renderPlot({
-        res <<- idw_func(input$timeType, date= input$date, hour=input$hour, polutants = input$polutants)
+        res <<- idw_func(input$timeType, date= input$date, hour=input$hour, polutants = input$polutants, LTopoEn = input$TopoEn, LWaterEn= input$WaterEn, IterType = input$IterType)
         res[1]
     }, width = 1000, height = 800, unit = "px")
     
