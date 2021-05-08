@@ -1,0 +1,47 @@
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_huyen"
+with 46 features
+It has 1 fields
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_nuoc"
+with 298 features
+It has 7 fields
+Integer64 fields read as strings:  MA 
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HNm_dh50_polyline"
+with 9618 features
+It has 7 fields
+Integer64 fields read as strings:  COD_CLASS 
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_huyen"
+with 46 features
+It has 1 fields
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_nuoc"
+with 298 features
+It has 7 fields
+Integer64 fields read as strings:  MA 
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HNm_dh50_polyline"
+with 9618 features
+It has 7 fields
+Integer64 fields read as strings:  COD_CLASS 
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_huyen"
+with 46 features
+It has 1 fields
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_nuoc"
+with 298 features
+It has 7 fields
+Integer64 fields read as strings:  MA 
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HNm_dh50_polyline"
+with 9618 features
+It has 7 fields
+Integer64 fields read as strings:  COD_CLASS 
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-06-21 0 PM2.5 FALSE FALSE IDW"
+[inverse distance weighted interpolation]
+[1] "IDW Func Info: Ngày 2020-06-21 0 PM2.5 FALSE FALSE Kriging"
+[inverse distance weighted interpolation]

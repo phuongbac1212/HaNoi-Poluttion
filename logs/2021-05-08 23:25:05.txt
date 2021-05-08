@@ -1,0 +1,4 @@
+OGR data source with driver: ESRI Shapefile 
+Source: "/home/fang/Working/spacial_analysis/R/Shiny app/HanoiPolution/shp", layer: "HN_huyen"
+with 46 features
+It has 1 fields
