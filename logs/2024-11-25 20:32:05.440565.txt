@@ -1,0 +1,237 @@
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-03-31 0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Giờ 2020-03-31 0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-03-31 0 PM2.5 FALSE FALSE IDW"
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+# A tibble: 46 × 2
+   IGDS_LEVEL                                                                                geometry
+        <int>                                                                      <MULTIPOLYGON [m]>
+ 1       7106 (((483643.1 2326144, 483643.9 2326148, 483728.5 2326628, 483773.5 2326619, 483780.7 ...
+ 2       7106 (((480664.7 2320341, 480546.7 2320219, 480414 2320097, 480197.4 2320290, 480187.1 23...
+ 3       7101 (((476978.9 2320937, 476963.8 2320903, 476931 2320847, 476857.6 2320772, 476809.3 23...
+ 4       7106 (((484439.3 2321606, 484429.3 2321567, 484265.7 2321475, 484287.4 2321423, 484369.8 ...
+ 5       7106 (((490347.8 2330843, 490506.9 2330822, 490682.6 2330802, 490706.6 2330799, 490850.6 ...
+ 6       7101 (((491957.1 2330196, 491831.8 2330325, 491479.2 2330593, 491125.9 2330743, 490850.6 ...
+ 7       7106 (((486892.9 2321648, 486902 2321836, 486900.7 2321929, 486953.3 2321958, 486974.4 23...
+ 8       7106 (((481210.3 2324847, 481125.2 2324862, 481078.8 2324866, 481622.2 2325337, 481735.4 ...
+ 9       7106 (((479661.9 2326700, 479698.9 2326711, 479757.2 2326717, 479751.1 2326764, 479747.2 ...
+10          0 (((479964 2328850, 479959.7 2328826, 479957 2328671, 479956.1 2328536, 479959.5 2328...
+# ℹ 36 more rows
+# ℹ Use `print(n = ...)` to see more rows
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_nuoc' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 298 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 529246.4 ymin: 2282722 xmax: 607979.3 ymax: 2348952
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HNm_dh50_polyline' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 9618 features and 7 fields
+Geometry type: MULTILINESTRING
+Dimension:     XY
+Bounding box:  xmin: 530580.1 ymin: 2274259 xmax: 603923.9 ymax: 2365046
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_nuoc' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 298 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 529246.4 ymin: 2282722 xmax: 607979.3 ymax: 2348952
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HNm_dh50_polyline' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 9618 features and 7 fields
+Geometry type: MULTILINESTRING
+Dimension:     XY
+Bounding box:  xmin: 530580.1 ymin: 2274259 xmax: 603923.9 ymax: 2365046
+Projected CRS: WGS 84 / UTM zone 48N
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-03-31 0 PM2.5 FALSE FALSE IDW"
+[inverse distance weighted interpolation]
+[1] "IDW Func Info: Ngày 31/3/2020 0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-03-31 0 PM2.5 FALSE FALSE IDW"
+[inverse distance weighted interpolation]
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 105.283 ymin: 20.78136 xmax: 106.0182 ymax: 21.24523
+Geodetic CRS:  GEOGCRS["unknown",
+    DATUM["World Geodetic System 1984",
+        ELLIPSOID["WGS 84",6378137,298.257223563,
+            LENGTHUNIT["metre",1]],
+        ID["EPSG",6326]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433],
+        ID["EPSG",8901]],
+    CS[ellipsoidal,2],
+        AXIS["longitude",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]],
+        AXIS["latitude",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]]]
+First 10 features:
+   IGDS_LEVEL                       geometry
+1        7106 MULTIPOLYGON (((105.8426 21...
+2        7106 MULTIPOLYGON (((105.814 20....
+3        7101 MULTIPOLYGON (((105.7785 20...
+4        7106 MULTIPOLYGON (((105.8503 20...
+5        7106 MULTIPOLYGON (((105.9071 21...
+6        7101 MULTIPOLYGON (((105.9226 21...
+7        7106 MULTIPOLYGON (((105.8739 20...
+8        7106 MULTIPOLYGON (((105.8192 21...
+9        7106 MULTIPOLYGON (((105.8043 21...
+10          0 MULTIPOLYGON (((105.8071 21...
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 105.283 ymin: 20.78136 xmax: 106.0182 ymax: 21.24523
+Geodetic CRS:  GEOGCRS["unknown",
+    DATUM["World Geodetic System 1984",
+        ELLIPSOID["WGS 84",6378137,298.257223563,
+            LENGTHUNIT["metre",1]],
+        ID["EPSG",6326]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433],
+        ID["EPSG",8901]],
+    CS[ellipsoidal,2],
+        AXIS["longitude",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]],
+        AXIS["latitude",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433,
+                ID["EPSG",9122]]]]
+First 10 features:
+   IGDS_LEVEL                       geometry
+1        7106 MULTIPOLYGON (((105.8426 21...
+2        7106 MULTIPOLYGON (((105.814 20....
+3        7101 MULTIPOLYGON (((105.7785 20...
+4        7106 MULTIPOLYGON (((105.8503 20...
+5        7106 MULTIPOLYGON (((105.9071 21...
+6        7101 MULTIPOLYGON (((105.9226 21...
+7        7106 MULTIPOLYGON (((105.8739 20...
+8        7106 MULTIPOLYGON (((105.8192 21...
+9        7106 MULTIPOLYGON (((105.8043 21...
+10          0 MULTIPOLYGON (((105.8071 21...
+   KIT.ID PM2.5 AQI.PM2.5  PM10 AQI.PM10       CO   AQI.CO latitude longitude
+1    1038 24.00     48.00 44.00    44.00 568.9497 2.844748 21.00257  105.8465
+2    1039 21.15     42.30 39.90    39.90 609.9126 3.049563 21.00764  105.8045
+3    1041 25.88     51.76 47.24    47.24 667.7092 3.338546 20.99603  105.8445
+4    1043  7.97     15.94 41.44    41.44 555.9393 2.779696 21.04169  105.8090
+5    1044 19.46     38.92 33.19    33.19 652.0493 3.260247 21.08230  105.7734
+6    1045 22.91     45.82 43.78    43.78 677.8116 3.389058 21.02432  105.8214
+7    1046 11.06     22.12 18.75    18.75 597.6641 2.988320 21.03793  105.7854
+8    1047 29.20     58.40 45.40    45.40 573.2213 2.866106 21.03281  105.8126
+9    1051 27.93     55.86 47.75    47.75 680.5005 3.402502 20.93134  105.7915
+10   1072 21.00     42.00 34.33    34.33 545.9832 2.729916 21.00047  105.7643
+11   1080 25.79     51.58 42.84    42.84 822.3714 4.111857 21.08284  105.7798
+12   1081 24.59     49.18 47.48    47.48 982.6118 4.913059 21.01820  105.7953
+13   1084 15.40     30.80 28.00    28.00 712.8303 3.564152 21.03232  105.7487
+14   1090 19.71     39.42 32.29    32.29 713.0037 3.565018 21.14768  105.9158
+15   1038 24.00     48.00 44.00    44.00 568.9497 2.844748 21.00257  105.8465
+16   1039 21.15     42.30 39.90    39.90 609.9126 3.049563 21.00764  105.8045
+17   1041 25.88     51.76 47.24    47.24 667.7092 3.338546 20.99603  105.8445
+18   1043  7.97     15.94 41.44    41.44 555.9393 2.779696 21.04169  105.8090
+19   1044 19.46     38.92 33.19    33.19 652.0493 3.260247 21.08230  105.7734
+20   1045 22.91     45.82 43.78    43.78 677.8116 3.389058 21.02432  105.8214
+21   1046 11.06     22.12 18.75    18.75 597.6641 2.988320 21.03793  105.7854
+22   1047 29.20     58.40 45.40    45.40 573.2213 2.866106 21.03281  105.8126
+23   1051 27.93     55.86 47.75    47.75 680.5005 3.402502 20.93134  105.7915
+24   1072 21.00     42.00 34.33    34.33 545.9832 2.729916 21.00047  105.7643
+25   1080 25.79     51.58 42.84    42.84 822.3714 4.111857 21.08284  105.7798
+26   1081 24.59     49.18 47.48    47.48 982.6118 4.913059 21.01820  105.7953
+27   1084 15.40     30.80 28.00    28.00 712.8303 3.564152 21.03232  105.7487
+28   1090 19.71     39.42 32.29    32.29 713.0037 3.565018 21.14768  105.9158
+29   1038 24.00     48.00 44.00    44.00 568.9497 2.844748 21.00257  105.8465
+30   1039 21.15     42.30 39.90    39.90 609.9126 3.049563 21.00764  105.8045
+31   1041 25.88     51.76 47.24    47.24 667.7092 3.338546 20.99603  105.8445
+32   1043  7.97     15.94 41.44    41.44 555.9393 2.779696 21.04169  105.8090
+33   1044 19.46     38.92 33.19    33.19 652.0493 3.260247 21.08230  105.7734
+34   1045 22.91     45.82 43.78    43.78 677.8116 3.389058 21.02432  105.8214
+35   1046 11.06     22.12 18.75    18.75 597.6641 2.988320 21.03793  105.7854
+36   1047 29.20     58.40 45.40    45.40 573.2213 2.866106 21.03281  105.8126
+37   1051 27.93     55.86 47.75    47.75 680.5005 3.402502 20.93134  105.7915
+38   1072 21.00     42.00 34.33    34.33 545.9832 2.729916 21.00047  105.7643
+39   1080 25.79     51.58 42.84    42.84 822.3714 4.111857 21.08284  105.7798
+40   1081 24.59     49.18 47.48    47.48 982.6118 4.913059 21.01820  105.7953
+41   1084 15.40     30.80 28.00    28.00 712.8303 3.564152 21.03232  105.7487
+42   1090 19.71     39.42 32.29    32.29 713.0037 3.565018 21.14768  105.9158
+43   1038 24.00     48.00 44.00    44.00 568.9497 2.844748 21.00257  105.8465
+44   1039 21.15     42.30 39.90    39.90 609.9126 3.049563 21.00764  105.8045
+45   1041 25.88     51.76 47.24    47.24 667.7092 3.338546 20.99603  105.8445
+46   1043  7.97     15.94 41.44    41.44 555.9393 2.779696 21.04169  105.8090
+47   1044 19.46     38.92 33.19    33.19 652.0493 3.260247 21.08230  105.7734
+48   1045 22.91     45.82 43.78    43.78 677.8116 3.389058 21.02432  105.8214
+49   1046 11.06     22.12 18.75    18.75 597.6641 2.988320 21.03793  105.7854
+50   1047 29.20     58.40 45.40    45.40 573.2213 2.866106 21.03281  105.8126
+51   1051 27.93     55.86 47.75    47.75 680.5005 3.402502 20.93134  105.7915
+52   1055 25.50     51.00 43.50    43.50       NA       NA 20.99152  105.7902
+53   1072 21.00     42.00 34.33    34.33 545.9832 2.729916 21.00047  105.7643
+54   1080 25.79     51.58 42.84    42.84 822.3714 4.111857 21.08284  105.7798
+55   1081 24.59     49.18 47.48    47.48 982.6118 4.913059 21.01820  105.7953
+56   1084 15.40     30.80 28.00    28.00 712.8303 3.564152 21.03232  105.7487
+57   1090 19.71     39.42 32.29    32.29 713.0037 3.565018 21.14768  105.9158
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_nuoc' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 298 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 529246.4 ymin: 2282722 xmax: 607979.3 ymax: 2348952
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HNm_dh50_polyline' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 9618 features and 7 fields
+Geometry type: MULTILINESTRING
+Dimension:     XY
+Bounding box:  xmin: 530580.1 ymin: 2274259 xmax: 603923.9 ymax: 2365046
+Projected CRS: WGS 84 / UTM zone 48N
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-04-01 0 PM2.5 FALSE FALSE IDW"
+[inverse distance weighted interpolation]
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_nuoc' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 298 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 529246.4 ymin: 2282722 xmax: 607979.3 ymax: 2348952
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HNm_dh50_polyline' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 9618 features and 7 fields
+Geometry type: MULTILINESTRING
+Dimension:     XY
+Bounding box:  xmin: 530580.1 ymin: 2274259 xmax: 603923.9 ymax: 2365046
+Projected CRS: WGS 84 / UTM zone 48N

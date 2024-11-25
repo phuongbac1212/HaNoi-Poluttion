@@ -1,0 +1,3 @@
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-03-31 0 PM2.5 FALSE FALSE IDW"

@@ -1,25 +1,24 @@
 library(raster)
-library(rgdal)
 library(ggplot2)
 library(dplyr)
 library(gstat)
 library(sf)
 library(sp)
 
-hanoi = readOGR(dsn = "shp", layer = "HN_huyen")
-hanoi = spTransform(hanoi, CRS("+proj=longlat +datum=WGS84"))
+hanoi = st_read(dsn = "shp", layer = "HN_huyen")
+hanoi = st_transform(hanoi, CRS("+proj=longlat +datum=WGS84"))
 hn.df = fortify(hanoi)
 
-hanoi.nuoc = readOGR(dsn = "shp", layer = "HN_nuoc")
-hanoi.nuoc = spTransform(hanoi.nuoc, CRS("+proj=longlat +datum=WGS84"))
+hanoi.nuoc = st_read(dsn = "shp", layer = "HN_nuoc")
+hanoi.nuoc = st_transform(hanoi.nuoc, CRS("+proj=longlat +datum=WGS84"))
 hn.nuoc.df = fortify(hanoi.nuoc)
 
-hanoi.dh = readOGR(dsn = "shp", layer = "HNm_dh50_polyline")
-hanoi.dh = spTransform(hanoi.dh, CRS("+proj=longlat +datum=WGS84"))
+hanoi.dh = st_read(dsn = "shp", layer = "HNm_dh50_polyline")
+hanoi.dh = st_transform(hanoi.dh, CRS("+proj=longlat +datum=WGS84"))
 hn.dh.df = fortify(hanoi.dh)
 
 
-work_path = "./FairKit/"
+work_path = paste0(normalizePath("./FairKit/"), "/")
 
 idw_func <-
   function(type,
@@ -156,12 +155,13 @@ idw_func <-
     }
     
     plot1 <- plot1 +
-      geom_polygon(
-        data = hn.df,
-        aes(x = long, y = lat, group = group),
-        color = "black",
-        fill = NA
-      ) +
+      # geom_polygon(
+      #   data = hn.df,
+      #   aes(x = long, y = lat, group = group),
+      #   color = "black",
+      #   fill = NA
+      # ) +
+      geom_sf(data = hanoi, fill = NA)+
       geom_label(
         data = sub.aqi.df,
         aes(x = longitude, y = latitude),
@@ -187,3 +187,4 @@ idw_func <-
   }
 
 #idw_func(type ="Ngày", date="2020-06-21", hour="3", polutants="PM2.5", LTopoEn=TRUE, LWaterEn=TRUE)
+

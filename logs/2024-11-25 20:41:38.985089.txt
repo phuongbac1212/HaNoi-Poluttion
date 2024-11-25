@@ -1,0 +1,39 @@
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_nuoc' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 298 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 529246.4 ymin: 2282722 xmax: 607979.3 ymax: 2348952
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HNm_dh50_polyline' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 9618 features and 7 fields
+Geometry type: MULTILINESTRING
+Dimension:     XY
+Bounding box:  xmin: 530580.1 ymin: 2274259 xmax: 603923.9 ymax: 2365046
+Projected CRS: WGS 84 / UTM zone 48N
+[1] "IDW Func Info: Giờ  0 PM2.5 FALSE FALSE IDW"
+[1] "IDW Func Info: Ngày 2020-04-01 0 PM2.5 FALSE FALSE IDW"
+[inverse distance weighted interpolation]
+Reading layer `HN_huyen' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 46 features and 1 field
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 425565 ymin: 2297963 xmax: 501890.3 ymax: 2349322
+Projected CRS: _MI_0
+Reading layer `HN_nuoc' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 298 features and 7 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: 529246.4 ymin: 2282722 xmax: 607979.3 ymax: 2348952
+Projected CRS: WGS 84 / UTM zone 48N
+Reading layer `HNm_dh50_polyline' from data source `/home/septentrio/Working/HaNoi-Poluttion/shp' using driver `ESRI Shapefile'
+Simple feature collection with 9618 features and 7 fields
+Geometry type: MULTILINESTRING
+Dimension:     XY
+Bounding box:  xmin: 530580.1 ymin: 2274259 xmax: 603923.9 ymax: 2365046
+Projected CRS: WGS 84 / UTM zone 48N
